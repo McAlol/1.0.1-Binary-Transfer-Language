@@ -1,0 +1,46 @@
+{
+  "name": "btl",
+  "version": "0.1.0",
+  "description": "Binary Transfer Language - Universal meta-classification system",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "btl",
+    "binary-transfer-language",
+    "isbn",
+    "isrc",
+    "eidr",
+    "doi",
+    "art-id",
+    "classification",
+    "metadata",
+    "nwc"
+  ],
+  "author": "NWC Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nwc/btl.git"
+  },
+  "homepage": "https://www.nwcbtl.org",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.2.0"
+  }
+}
