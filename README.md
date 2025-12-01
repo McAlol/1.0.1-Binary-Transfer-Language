@@ -2,7 +2,7 @@
 
 ## Overview
 
-Binary Transfer Language (BTL) is a compact, deterministic encoding system that enables universal classification and indexing of media across multiple global registry systems. BTL serves as the foundational "gate system" for the Network World Catalogue (NWC), providing a standardized way to reference books (ISBN), music (ISRC), films (EIDR), scientific documents (DOI/ISSN), art (ART-ID), and other media types in a single, coherent format.
+Binary Transfer Language (BTL) is a compact, deterministic encoding system that enables universal classification and indexing of media across multiple global registry systems. BTL serves as the foundational "gate system" for the NWC Categorization System, providing a standardized way to reference books (ISBN), music (ISRC), films (EIDR), scientific documents (DOI/ISSN), art (ART-ID), and other media types in a single, coherent format.
 
 **Key Innovation**: BTL acts as a meta-index — a unified "address system" that references all the world's classification systems without replacing them, similar to how DNS points to IP addresses without replacing IP addressing.
 
@@ -183,3 +183,4 @@ Current Version: **0.1.0** (Binary + Metadata)
 ---
 
 For questions, support, or collaboration: [nwcbtl.org](https://www.nwcbtl.org)
+
